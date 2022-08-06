@@ -1,0 +1,49 @@
+.home_banner {
+  background: #006
+    url(https://s3-eu-west-1.amazonaws.com/mdpk/frontend/assets/images/header-bg.jpg)
+    no-repeat;
+  background-size: 100% auto;
+  background-position: 100% bottom;
+  min-height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner_text {
+  color: white;
+  font-size: 3rem;
+}
+
+.special_banner_text {
+  color: orange;
+}
+
+.search_bar {
+  height: 3rem;
+  width: 70%;
+  border-radius: 0px;
+}
+
+.search_button {
+  color: white;
+  background-color: orange;
+  border: orange;
+  border-radius: 0px;
+}
+
+.search_button:hover {
+  border-radius: 0px;
+  color: orange;
+  background-color: white;
+  border: "1px solid orange";
+}
+
+.moving_tags {
+  background-color: #25267e;
+  height: fit-content;
+  width: fit-content;
+  color: white;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 0 1rem;
+}

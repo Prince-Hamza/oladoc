@@ -1,6 +1,7 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Main from './screens/Main';
-import './App.css'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Main from "./screens/Main";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -10,8 +11,7 @@ function App() {
         <Route exact path="/plan" element={<Main />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
-
