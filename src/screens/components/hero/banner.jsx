@@ -5,24 +5,23 @@ import "./banner.css";
 const Banner = () => {
   const tags = ["200,000+ patient reviews", "2500+ doctors", "Best services"];
 
-  const [newName, setnewName] = useState(0);
+  const [tag, setTag] = useState("");
+
   useEffect(() => {
-    for (const [index, value] of tags.entries()) {
+    tags.map((val, index) =>
       setTimeout(() => {
-        shuffle(value);
-      }, 1000);
-    }
-  });
-  const shuffle = (value) => {
-    setnewName(value);
-  };
+        setTag(tags[index]);
+      }, 10000)
+    );
+  }, []);
+
   return (
     <Container fluid className="home_banner">
       <Container className="d-flex flex-column ">
         <Row>
           <span className="banner_text text-center">
             Find and book the <span className="special_banner_text">best</span>{" "}
-            doctors near you
+            teachers near you
           </span>
         </Row>
 
@@ -40,7 +39,7 @@ const Banner = () => {
           </InputGroup>
         </Row>
         <Row className="d-flex justify-content-center my-5">
-          <span className="moving_tags text-center">{newName}</span>
+          <span className="moving_tags w-25">{tag}</span>
         </Row>
       </Container>
     </Container>
