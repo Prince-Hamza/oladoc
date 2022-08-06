@@ -1,0 +1,24 @@
+.item {
+  height: 20rem;
+  /* width: 20rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.item1 {
+  background-color: aqua;
+}
+
+.item2 {
+  background-color: blueviolet;
+}
+
+.item3 {
+  background-color: brown;
+}
+
+.item4 {
+  background-color: coral;
+}

@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import Nav_bar from "./components/navbar/nav_bar";
 import Banner from "./components/hero/banner";
 import Badges from "./components/badges/badges";
+import TeacherCards from "./components/teacherCards/teacherCards";
 
 export default function Main() {
   const navigate = useNavigate();
@@ -14,6 +15,7 @@ export default function Main() {
       <Nav_bar />
       <Banner />
       <Badges />
+      <TeacherCards />
     </Container>
   );
 }
