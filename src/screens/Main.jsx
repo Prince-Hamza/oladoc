@@ -8,6 +8,7 @@ import TeacherCards from "./components/teacherCards/teacherCards";
 
 export default function Main() {
   const navigate = useNavigate();
+
   return (
     // <div onClick={() => { navigate('/plan') }}> React Starter App </div>
 

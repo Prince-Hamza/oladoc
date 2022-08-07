@@ -28,6 +28,12 @@ const TeacherCards = () => {
   //   return <h1>Carousel</h1>;
   return (
     <Container fluid className="my-5 border card_container">
+      <h4>This is for testing cards</h4>
+      <h5 style={{ color: "red" }}>
+        There is a issue with carousel library which i will solve soon
+      </h5>
+      <CardPremium />
+
       <Carousel
         responsive={responsive}
         swipeable={false}
@@ -47,8 +53,6 @@ const TeacherCards = () => {
       >
         <CardPremium />
         <CardPremium />
-        <CardPremium />
-
         <CardPremium />
         <CardPremium />
       </Carousel>

@@ -45,3 +45,24 @@
   padding: 0 1rem;
   text-align: center;
 }
+
+.dropdown_panel {
+  /* height: 10rem !important; */
+  width: 98% !important;
+  background-color: white !important;
+  position: absolute !important;
+  z-index: 2 !important;
+}
+
+.panel_option {
+  width: 100% !important;
+  height: 3rem !important;
+  border-bottom: 1px solid #e9e9e9 !important;
+  display: flex !important;
+
+  justify-content: start !important;
+}
+
+.panel_option:hover {
+  background-color: #e9e9e9;
+}
